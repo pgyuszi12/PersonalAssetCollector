@@ -14,5 +14,5 @@
  *= require_self
  */
 
-@import "bootstrap-sass-official/assets/stylesheets/_bootstrap-sprockets.scss";
-@import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap-sprockets.scss";
+@import "bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
