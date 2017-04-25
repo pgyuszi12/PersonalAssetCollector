@@ -20,7 +20,11 @@ module PersonalAssetCollector
     config.assets.paths << Rails.root.join("vendor","assets","app", "bower_components","bootstrap-sass-official","assets","stylesheets")
     config.assets.paths << Rails.root.join("vendor","assets","app", "bower_components","bootstrap-sass-official","assets","javascripts")
     config.assets.precompile << %r(.*.(?:eot|svg|ttf|woff|woff2)$)
+    
     config.public_file_server.enabled = true
     config.assets.serve_static_files = true
+
+    config.assets.compile = true
+
   end
 end
